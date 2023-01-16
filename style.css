@@ -158,12 +158,13 @@ h5 {
 
 .feature-img {
     padding: 10%;
-
+    position: relative;
 }
 
 .feature-img1 {
     width: 100%;
     height: 100%;
+
 
 }
 
@@ -181,6 +182,20 @@ h5 {
     opacity: 1;
     color: red;
 }
+
+.btn2 {
+    background-color: #ffd7e9;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font: 1em sans-serif;
+    position: absolute;
+    bottom: 6%;
+    left: 7%;
+    border: 1px solid red;
+
+}
+
 
 /* section4  */
 .facts-details {
@@ -235,6 +250,25 @@ h5 {
 .sponser {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+}
+
+/* section6 */
+.section-6 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.faq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.services {
+    color: aliceblue;
 }
 
 /* last section  */
@@ -299,6 +333,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 30%;
+    }
+
+    .faq {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
 }
